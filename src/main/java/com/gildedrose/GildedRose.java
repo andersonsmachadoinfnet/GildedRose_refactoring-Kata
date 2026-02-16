@@ -25,6 +25,6 @@ class GildedRose {
                 return updater;
             }
         }
-        return new NormalItemUpdater();
+        return new DefaultUpdater();
     }
 }
