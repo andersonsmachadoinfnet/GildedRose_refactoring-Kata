@@ -11,6 +11,7 @@ class GildedRose {
         updaters.add(new AgedBrieUpdater());
         updaters.add(new BackstagePassUpdater());
         updaters.add(new SulfurasUpdater());
+        updaters.add(new ConjuredUpdater());
     }
 
     public void updateQuality() {
