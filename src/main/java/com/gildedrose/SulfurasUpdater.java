@@ -8,6 +8,6 @@ public class SulfurasUpdater implements ItemUpdater {
 
     @Override
     public boolean isEqual(String descricao) {
-        return descricao.equals("Sulfuras, Hand of Ragnaros");
+        return descricao.equals(Constantes.ITEM_SULFURAS);
     }
 }

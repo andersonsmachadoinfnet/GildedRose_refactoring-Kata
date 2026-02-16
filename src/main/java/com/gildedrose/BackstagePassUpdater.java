@@ -18,7 +18,7 @@ public class BackstagePassUpdater implements ItemUpdater {
 
     @Override
     public boolean isEqual(String descricao) {
-        return descricao.equals("Backstage passes to a TAFKAL80ETC concert");
+        return descricao.equals(Constantes.ITEM_BACKSTAGE);
     }
 
     private void increaseQuality(Item item, int amount) {

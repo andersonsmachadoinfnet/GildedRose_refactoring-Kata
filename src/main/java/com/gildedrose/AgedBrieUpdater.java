@@ -13,7 +13,7 @@ public class AgedBrieUpdater implements ItemUpdater {
 
     @Override
     public boolean isEqual(String descricao) {
-        return descricao.equals("Aged Brie");
+        return descricao.equals(Constantes.ITEM_AGEDBRIE);
     }
 
     private void increaseQuality(Item item, int amount) {

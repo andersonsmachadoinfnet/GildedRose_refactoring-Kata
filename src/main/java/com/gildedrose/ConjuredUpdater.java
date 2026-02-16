@@ -12,7 +12,7 @@ public class ConjuredUpdater implements ItemUpdater{
 
     @Override
     public boolean isEqual(String descricao) {
-        return descricao.equals("Conjured Mana Cake");
+        return descricao.equals(Constantes.ITEM_CONJURED);
     }
 
     private void decreaseQuality(Item item, int amount) {
